@@ -29,7 +29,7 @@ const productSlice = createSlice({
 export const { setProducts, setStatus } = productSlice.actions;
 export default productSlice.reducer;
 
-const apiUrl = "http://3.7.252.58:4001/product/getAllProduct";
+const apiUrl = "https://3.7.252.58:4001/product/getAllProduct";
 
 export const fetchProducts = createAsyncThunk(
 	"products/fetchData",
